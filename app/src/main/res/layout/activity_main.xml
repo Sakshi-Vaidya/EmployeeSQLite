@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="314dp"
+        android:layout_height="wrap_content"
+        android:layout_x="50dp"
+        android:layout_y="20dp"
+        android:gravity="center"
+        android:text="Employee Details"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="58dp"
+        android:layout_y="110dp"
+        android:text="Enter ID:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="237dp"
+        android:layout_y="96dp"
+        android:inputType="number"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="58dp"
+        android:layout_y="160dp"
+        android:text="Enter Name:"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="237dp"
+        android:layout_y="146dp"
+        android:inputType="text"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="58dp"
+        android:layout_y="210dp"
+        android:text="Enter Contact No.:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_x="237dp"
+        android:layout_y="196dp"
+        android:inputType="number|phone"
+        android:textSize="20sp" />
+
+    <TextView
+        android:layout_width="159dp"
+        android:layout_height="35dp"
+        android:layout_x="63dp"
+        android:layout_y="261dp"
+        android:text="Location: "
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/loc"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:layout_x="237dp"
+        android:layout_y="250dp"
+        android:ems="10"
+        android:inputType="text" />
+
+    <TextView
+        android:layout_width="156dp"
+        android:layout_height="34dp"
+        android:layout_x="63dp"
+        android:layout_y="306dp"
+        android:text="Salary: "
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/sal"
+        android:layout_width="159dp"
+        android:layout_height="wrap_content"
+        android:layout_x="237dp"
+        android:layout_y="306dp"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/Insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="41dp"
+        android:layout_y="412dp"
+        android:text="Insert"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="166dp"
+        android:layout_y="414dp"
+        android:text="Delete"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Update"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_x="33dp"
+        android:layout_y="498dp"
+        android:text="Update"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/View"
+        android:layout_width="107dp"
+        android:layout_height="wrap_content"
+        android:layout_x="277dp"
+        android:layout_y="414dp"
+        android:text="View"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/ViewAll"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:layout_x="209dp"
+        android:layout_y="497dp"
+        android:text="View All"
+        android:textSize="20sp" />
+
+
+</AbsoluteLayout>
